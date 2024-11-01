@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: teal;
+    background-image: url(pexels-eberhardgross-844297.jpg);
+    position: relative;
+    background-size: cover;
+}
+
+form {
+    width: 300px;
+    padding:20px;
+    border-radius: 10px;
+    margin: auto;
+    border: 2px solid rgb(214, 64, 255);
+    
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color:#3ac5e4;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border: 2px solid #ff59ca;
+    outline: none;
+}
+
+input[type="email"]::placeholder{ color: deeppink; }
+input[type="password"]::placeholder{ color: deeppink; }
+
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(109, 22, 133);
+    color: rgb(0, 242, 255);
+    cursor: pointer;
+    font-weight: bold;
+}
+
+input[type="email"]:hover{border: 2px solid rgb(214, 64, 255);}
+input[type="password"]:hover {border: 2px solid rgb(214, 64, 255);}
+
+input[type="submit"]:hover {
+    background-color: #29bada;
+    color: aquamarine;
+}

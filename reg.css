@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: teal;
+    background-image: url(02.jpg);
+    position: relative;
+    background-size: cover;
+}
+
+form {
+    width: 300px;
+    padding: 20px;
+    border-radius: 10px;
+    margin: auto;
+    border: 2px solid rgb(214, 64, 255);
+
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #831eff;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border: 2px solid #ffb700;
+    outline: none;
+}
+
+input[type="email"]::placeholder {color: rgb(255, 77, 0);}
+input[type="password"]::placeholder {color: rgb(255, 77, 0);}
+input[type="text"]::placeholder {color:rgb(255, 77, 0);}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(255, 149, 27);
+    color: rgb(255, 255, 0);
+    cursor: pointer;
+    font-weight: bold;
+}
+
+input[type="email"]:hover {border: 2px solid #831eff;}
+input[type="password"]:hover {border: 2px solid #831eff;}
+input[type="text"]:hover {border: 2px solid #831eff;}
+
+input[type="submit"]:hover {
+    background-color: #ff38f8;
+    color: rgb(0, 255, 225);
+}

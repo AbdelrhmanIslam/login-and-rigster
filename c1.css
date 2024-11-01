@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: teal;
+    background-image: url(pexels-sanaan-3075993.jpg);
+    position: relative;
+    background-size: cover;
+}
+
+label {
+    font-size: 24px;
+    font-weight: bold;
+    display: block;
+    margin: 10px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: rgba(0, 229, 255, 0.735);
+    background-color: rgba(210, 210, 210, 0.446);
+    
+}
+
+.aa1,
+.aa2 {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    background-color: #007bff;
+    font-size: 18px;
+    transition:  0.3s ;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.aa1:hover {color: rgb(0, 0, 0);
+background-color:rgba(0, 229, 255, 0.735);}
+.aa2:hover {color: rgb(0, 0, 0);
+background-color: rgba(0, 229, 255, 0.735);}
+
+label:hover{
+    color: rgb(0, 0, 0);
+    background-color: rgba(27, 255, 255, 0.697);
+}
+
+p{
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 10px;
+    background-color:rgba(210, 210, 210, 0.446);
+    font-size: 14px;
+}
+
+.sp1{
+    color: aqua;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.sp1:hover {
+    color: crimson;
+    font-size: xx-large;
+}
+
+.social-icons {
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 1;
+    z-index: 1;
+}
+
+.social-icons a {
+    display: inline-block;
+    /*margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 60px;
+    margin-right: 60px;*/
+    margin: 0 60px;
+}
+
+.social-icons img {
+    width: 30px;
+    height: 30px;
+}
